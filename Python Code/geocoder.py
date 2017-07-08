@@ -10,11 +10,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 from geopy import geocoders
 
-'''
-not updated
-'''
-apispare = ["AIzaSyB2Y_sIIS0JUseEaN3_GBbqIlqpARMbCRc","AIzaSyD6QHap058UQDMA_L9S7OrUYTUUtHwSpFI","AIzaSyDCF1FV3X29B7ovSTXEJaySImdz8CCY5C4","AIzaSyAfKn8uTZOmWcDoVTY_N9YzvZLityhUdWk","AIzaSyDW7sMKMKlQ9y8bar1qWzvqtslJEZAwXq4","AIzaSyAefWW8GFn8wsPMX6LIjusZ5VCa5RWPM3Y","AIzaSyDwVLg6iO8LhuNf3_vROSrM9mBFAXVOVD4","AIzaSyD9mGUGDQNObKfuZUUZTP4ohmxX0tBS1co"]
-
 driver = ""
 
 def setup():
@@ -258,5 +253,5 @@ def main():
     else:
         sys.exit(0)
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     main()
